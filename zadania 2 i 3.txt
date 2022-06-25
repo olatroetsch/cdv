@@ -3,7 +3,9 @@ git status
 cd /Users/Ola/Desktop/Pliki
 git init
 git add .
-git commit -m „dodane wszystkie pliki”
+git commit -m "commit 2"
+git commit -am "dodane pliki"
+git log
 git remote add origin https://github.com/olatroetsch/cdv.git
 git push -u origin main
 
